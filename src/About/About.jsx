@@ -14,14 +14,14 @@ export default function About() {
             <i className="fa-solid fa-star" style={{ color: "white" }}></i>
             <div className="shape ms-2"></div>
           </div>
-          <div className="d-flex mt-4">
-            <p>
+          <div className="d-flex  mt-4">
+            <p className="p-2 mx-2">
               Freelancer is a free bootstrap theme created by Route. The
               download includes the complete source files including HTML, CSS,
               and JavaScript as well as optional SASS stylesheets for easy
               customization.
             </p>
-            <p>
+            <p className="p-2 mx-2">
               Freelancer is a free bootstrap theme created by Route. The
               download includes the complete source files including HTML, CSS,
               and JavaScript as well as optional SASS stylesheets for easy

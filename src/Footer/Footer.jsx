@@ -6,7 +6,7 @@ export default function Footer() {
     <>
       <div className="secColor text-white text-center p-5 ">
         <div className="container">
-          <div className="row">
+          <div className="row gy-5">
             <div className="col-md-4">
               <h5 className="fs-2">LOCATION</h5>
               <p className="mb-4">2215 John Daniel Drive</p>

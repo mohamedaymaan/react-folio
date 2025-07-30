@@ -4,9 +4,7 @@ import Port1 from "../assets/poert1.png";
 import Port2 from "../assets/port2.png";
 import Port3 from "../assets/port3.png";
 
-
 export default function Portfolio() {
-  let images = [Port1, Port2, Port3];
   let [selectedImage, setSelectedImage] = useState(null);
 
   function handleImage(e) {
@@ -15,12 +13,11 @@ export default function Portfolio() {
       setSelectedImage(img.src);
     }
     console.log(e);
-    
   }
 
   return (
     <>
-      <div className="container vh-100 overflow-hidden">
+      <div className="container vh-100 overflow-scroll ">
         <div className="text-center sColor mt-4 ">
           <h2 className="fs-1 fw-bold">PORTFOLIO COMPONENT</h2>
         </div>
@@ -40,11 +37,7 @@ export default function Portfolio() {
               <div className="layer">
                 <i className="fa-solid fa-plus fa-7x text-white"></i>
               </div>
-              <img
-                src={Port1}
-                alt=""
-                className="w-100 rounded"
-              />
+              <img src={Port1} alt="" className="w-100 rounded" />
             </div>
           </div>
           <div className="col-md-4">
