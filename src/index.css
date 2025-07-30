@@ -1,0 +1,19 @@
+:root {
+  --mainColor: #1abc9c;
+  --sideColor: #2c3e50;
+}
+.mainColor {
+  background-color: var(--mainColor);
+}
+.secColor {
+  background-color: var(--sideColor);
+}
+.home-spacing {
+  padding: 100px;
+}
+.fColor{
+  color: var(--mainColor);
+}
+.sColor{
+  color: var(--sideColor);
+}

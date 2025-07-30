@@ -1,0 +1,23 @@
+.formControl {
+  width: 60%;
+  padding: 10px 10px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+}
+.formControl:focus-visible {
+  outline: none;
+}
+label {
+  color: #1abc9c;
+  left: 21%;
+  top: 10px;
+  opacity: 0;
+  transition: 0.6s all ease;
+}
+.labelVisible {
+  opacity: 1;
+  top: -20px;
+}
+.btN{
+     margin-left: 20%;
+}
